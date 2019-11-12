@@ -11,7 +11,7 @@ void setup() {
 
 void draw() {
      shape = drawingManager.addShape();
-        drawingManager.tiger(40);
+        drawingManager.addTiger(10);
            shape.addVertex(mouseX,mouseY); 
 }
 

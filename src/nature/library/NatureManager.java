@@ -91,16 +91,10 @@ public class NatureManager {
 		return dShape;
 	}
 	
-	public void tiger(float weight){
+	public void addTiger(float weight){
 	    strokeWeight(weight);
-	    System.out.println(this.myParent.mouseX);
-		if(this.myParent.mouseX % 2 == 0 || this.myParent.mouseX % 5 == 0){
-			System.out.println("yes");
-			stroke(255, 92, 0);
-		}
-		else{
-			stroke(0,0,0);
-		}
+	    Tiger t = new Tiger(this.myParent, strokeWeight, strokeColor);
+	    objects.add(t);
 	}
 	
 	public void triangle(float x1, float y1,float x2, float y2,float x3, float y3){

@@ -4,7 +4,7 @@ import processing.core.PApplet;
 import processing.pdf.*;
 
  
-public interface DObj {     
+public interface DObj { 
 	 
 	 public void drawIntoPDF(PGraphicsPDF pdf); 
 	  

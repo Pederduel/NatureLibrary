@@ -14,7 +14,7 @@ public class DColor {
 	    this.a = 255;
 	 }
 	 
-	 DColor(int r,int g, int b, int a){
+	 DColor(int r,int g, int b, int a){ 
 		    this.r = r;
 		    this.g = g;
 		    this.b = b;
