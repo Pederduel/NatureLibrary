@@ -96,7 +96,7 @@ public class NatureManager {
 	    System.out.println(this.myParent.mouseX);
 		if(this.myParent.mouseX % 2 == 0 || this.myParent.mouseX % 5 == 0){
 			System.out.println("yes");
-			stroke(50, 50, 255);
+			stroke(255, 92, 0);
 		}
 		else{
 			stroke(0,0,0);

@@ -2,7 +2,7 @@ package nature.library;
 
 public class DColor {
 
-	public int r; 
+	public int r;  
 	public int g;
 	public int b;   
 	public int a; 
