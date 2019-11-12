@@ -5,12 +5,7 @@ import processing.pdf.PGraphicsPDF;
 
 public class Tiger implements DObj{
 	
-	DPoint start;
-	DPoint end;
-	//private  DColor fillColor;
 	private  DColor strokeColor;
-	//private  boolean noFill;
-	private boolean noStroke;
 	private float weight;
 	private PApplet myParent;
 	  
@@ -18,13 +13,11 @@ public class Tiger implements DObj{
 	   this.myParent = myParent;
 	   this.strokeColor = strokeColor;
 	   this.weight = weight;
-	   //this.noFill = noFill;
-	   //this.noStroke = noStroke;
 	   this.renderTransformation(myParent);
 	  }
 	  
 	  
-	  public void renderTransformation(PApplet parent){	  
+	  public void renderTransformation(PApplet parent){
 		if(parent.mouseX % 2 == 0 || parent.mouseX % 5 == 0){
 			strokeColor.r = 255;
 			strokeColor.g = 92;

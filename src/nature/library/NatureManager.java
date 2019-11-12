@@ -82,7 +82,7 @@ public class NatureManager {
 	
 	public void line(float x1, float y1,float x2, float y2){
 	      DLine l = new DLine(this.myParent, x1, y1,x2,  y2, fillColor,strokeColor,noFill,noStroke);
-	      objects.add(l);
+	      objects.add(l); 
 	   }
 	
 	public DShape addShape(){
@@ -93,7 +93,7 @@ public class NatureManager {
 	
 	public void addTiger(float weight){
 	    strokeWeight(weight);
-	    Tiger t = new Tiger(this.myParent, strokeWeight, strokeColor);
+	    Tiger t = new Tiger(this.myParent, weight, strokeColor);
 	    objects.add(t);
 	}
 	
