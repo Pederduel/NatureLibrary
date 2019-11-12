@@ -1,4 +1,4 @@
-package template.library;
+package nature.library;
 
 
 import processing.core.*;
